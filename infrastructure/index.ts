@@ -1,4 +1,5 @@
 import * as pulumi from "@pulumi/pulumi";
+import * as docker from '@pulumi/docker'
 import * as resources from '@pulumi/azure-native/resources'
 import * as containerregistry from '@pulumi/azure-native/containerregistry'
 
@@ -38,4 +39,5 @@ const registryCredentials = containerregistry
       password: creds.passwords![0].value!,
     }
   })
-  
+  export const acrServer = registry.loginServer
+export const acrUsername = registryCredentials.username
