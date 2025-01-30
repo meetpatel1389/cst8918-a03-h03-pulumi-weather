@@ -6,6 +6,6 @@ config:
   cst8918-a03-infra:cpu: '1'
   cst8918-a03-infra:memory: '2'
   cst8918-a03-infra:prefixName: 'cst8918a03pate1620'
-  cst8918-a03-infra:imageTag: 'v0.2.0'
+  cst8918-a03-infra:imageTag: 'v0.3.0'
   cst8918-a03-infra:weatherApiKey:
     secure: AAABALk/weNCvjioy83KtOcwzjjExBaeOLX4Vbnlkzb/EaKT8n55cpgqmd8JMorQiZRApG+/jPNf1yGnWsHkyQ==
